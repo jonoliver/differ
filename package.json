@@ -1,0 +1,16 @@
+{
+  "name": "differ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node diff.js",
+    "clean": "rm -rf differencify_reports"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "differencify": "^1.5.3",
+    "minimist": "^1.2.0"
+  }
+}
